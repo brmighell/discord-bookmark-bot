@@ -1,0 +1,37 @@
+{
+  "name": "partiallycyber/bookmark-bot",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/list.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "list"
+      }
+    },
+    "functions/events/discord/rename.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "rename"
+      }
+    },
+    "functions/events/discord/delete.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "delete"
+      }
+    },
+    "functions/events/discord/clear.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "clear"
+      }
+    },
+    "functions/events/discord/message/contextmenu/addbkmrk.js": {
+      "name": "discord.message.contextmenu.interaction",
+      "subtype": {
+        "name": "Add bookmark"
+      }
+    }
+  }
+}

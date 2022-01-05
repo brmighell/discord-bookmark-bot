@@ -1,0 +1,8 @@
+{
+  "name": "bookmark-bot",
+  "author": "partiallycyber <bryce.mighell@gmail.com>",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}
